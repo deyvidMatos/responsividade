@@ -1,0 +1,28 @@
+.image-content{
+    width: 765px;
+    height: 400px;
+}
+.text-content{
+    font-size: 26px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+@media (max-width: 790px) {
+    .image-content{
+        width: 90%;
+        height: auto;
+    }
+}
+@media (max-width: 425px) {
+    .image-content{
+        width: 100%;
+        height: auto;
+    }
+    .tilte-contet{
+        text-align: center;
+    }
+    .text-content{
+        font-size: 18px;
+        text-align: center;
+    }
+    
+}
